@@ -9,6 +9,7 @@ font-family: 'open sans',sans-serif;
 nav {
     display: flex;
     justify-content: space-between;
+    margin: 0 200px;
 }
 .nav-title{
     color: #181818;
@@ -37,3 +38,14 @@ nav a{
     color: #474747;
 }
 /*header related style*/
+.header{
+    background-color: #fff8f3;
+}
+.banner{
+    padding: 30 30 30 150;
+    display: flex;
+    align-items: center;
+}
+.banner .profile{
+    width: 400px;
+}
