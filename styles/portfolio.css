@@ -53,10 +53,11 @@ nav a{
     background-color: #fff8f3;
 }
 .banner{
-    padding: 30 30 0 150;
+    padding: 30px 30px 0 150px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
+
 }
 .banner-content{
     max-width: 500px;
@@ -79,10 +80,21 @@ margin-bottom: 0;
     margin-top: 5px;
 }
 /*main section style*/
+main{
+    max-width: 1040px;
+    margin: 0 auto;
+}
 /*about section style*/
 .about{
     padding: 130px;
     border-radius: 10px;
     background: #fff8f3;
     margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
 }
